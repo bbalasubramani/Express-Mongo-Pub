@@ -56,23 +56,25 @@ Express+Mongo+Pug/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/bbalasubramani/Express-Mongo-Pub.git
 cd Express+Mongo+Pug
 
 # For students module
 cd students
-npm install
+npm install node
+npm install express mongoose pug
 
 # For employees module
 cd ../employees
-npm install
+npm install node
+npm install express mongoose pug
 ```
 
 ---
 
 ## 🛠️ Running the Servers
 
-Open two terminals:
+npm server.js
 
 ### Terminal 1: Students Module
 
@@ -110,6 +112,3 @@ node server.js
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
